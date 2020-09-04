@@ -475,16 +475,16 @@ const styles = react_native_1.StyleSheet.create({
     },
     colButtonCircle: {
         flex: 0,
-        marginLeft: grid_1.grid.unit / 2,
-        marginRight: grid_1.grid.unit / 2,
+        marginLeft: 'auto',
+        marginRight: 'auto',
         alignItems: "center",
         width: grid_1.grid.unit * 4,
         height: grid_1.grid.unit * 4
     },
     colEmpty: {
         flex: 0,
-        marginLeft: grid_1.grid.unit / 2,
-        marginRight: grid_1.grid.unit / 2,
+        marginLeft: 'auto',
+        marginRight: 'auto',
         width: grid_1.grid.unit * 4,
         height: grid_1.grid.unit * 4
     },
@@ -497,7 +497,7 @@ const styles = react_native_1.StyleSheet.create({
     text: {
         fontFamily: 'Avenir Next',
         fontSize: grid_1.grid.unit * 2,
-        fontWeight: "200"
+        fontWeight: "300"
     },
     buttonCircle: {
         alignItems: "center",
@@ -511,7 +511,7 @@ const styles = react_native_1.StyleSheet.create({
         fontFamily: 'Avenir Next',
         fontSize: 20,
         fontWeight: "200",
-        lineHeight: grid_1.grid.unit * 2.5
+        lineHeight: grid_1.grid.unit * 1.5
     },
     textSubtitle: {
         fontFamily: 'Avenir Next',
