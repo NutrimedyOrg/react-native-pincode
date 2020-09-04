@@ -162,12 +162,14 @@ const styles = react_native_1.StyleSheet.create({
         justifyContent: "center"
     },
     text: {
+        fontFamily: 'Avenir Next',
         fontSize: grid_1.grid.unit,
         color: colors_1.colors.base,
         lineHeight: grid_1.grid.unit * grid_1.grid.lineHeight,
         textAlign: "center"
     },
     viewTextLock: {
+        fontFamily: 'Avenir Next',
         justifyContent: "center",
         alignItems: "center",
         paddingLeft: grid_1.grid.unit * 3,
@@ -175,11 +177,13 @@ const styles = react_native_1.StyleSheet.create({
         flex: 3
     },
     textTimer: {
+        fontFamily: 'Avenir Next',
         fontFamily: react_native_1.Platform.OS === "ios" ? "Courier" : "monospace",
         fontSize: 20,
         color: colors_1.colors.base
     },
     title: {
+        fontFamily: 'Avenir Next',
         fontSize: grid_1.grid.navIcon,
         color: colors_1.colors.base,
         opacity: grid_1.grid.mediumOpacity,
@@ -222,6 +226,7 @@ const styles = react_native_1.StyleSheet.create({
         paddingTop: grid_1.grid.unit
     },
     closeButtonText: {
+        fontFamily: 'Avenir Next',
         color: colors_1.colors.white,
         fontWeight: "bold",
         fontSize: 14

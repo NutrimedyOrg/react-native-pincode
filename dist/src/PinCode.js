@@ -495,6 +495,7 @@ const styles = react_native_1.StyleSheet.create({
         flexDirection: "column"
     },
     text: {
+        fontFamily: 'Avenir Next',
         fontSize: grid_1.grid.unit * 2,
         fontWeight: "200"
     },
@@ -507,11 +508,13 @@ const styles = react_native_1.StyleSheet.create({
         borderRadius: grid_1.grid.unit * 2
     },
     textTitle: {
+        fontFamily: 'Avenir Next',
         fontSize: 20,
         fontWeight: "200",
         lineHeight: grid_1.grid.unit * 2.5
     },
     textSubtitle: {
+        fontFamily: 'Avenir Next',
         fontSize: grid_1.grid.unit,
         fontWeight: "200",
         textAlign: "center"
@@ -532,6 +535,7 @@ const styles = react_native_1.StyleSheet.create({
         alignItems: "center"
     },
     textDeleteButton: {
+        fontFamily: 'Avenir Next',
         fontWeight: "200",
         marginTop: 5
     },
