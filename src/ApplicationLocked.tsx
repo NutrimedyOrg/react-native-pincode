@@ -286,12 +286,14 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   },
   text: {
+    fontFamily: 'Avenir Next',
     fontSize: grid.unit,
     color: colors.base,
     lineHeight: grid.unit * grid.lineHeight,
     textAlign: "center"
   },
   viewTextLock: {
+    fontFamily: 'Avenir Next',
     justifyContent: "center",
     alignItems: "center",
     paddingLeft: grid.unit * 3,
@@ -299,11 +301,12 @@ const styles = StyleSheet.create({
     flex: 3
   },
   textTimer: {
-    fontFamily: Platform.OS === "ios" ? "Courier" : "monospace",
+    fontFamily: 'Avenir Next',
     fontSize: 20,
     color: colors.base
   },
   title: {
+    fontFamily: 'Avenir Next',
     fontSize: grid.navIcon,
     color: colors.base,
     opacity: grid.mediumOpacity,
@@ -346,6 +349,7 @@ const styles = StyleSheet.create({
     paddingTop: grid.unit
   },
   closeButtonText: {
+    fontFamily: 'Avenir Next',
     color: colors.white,
     fontWeight: "bold",
     fontSize: 14

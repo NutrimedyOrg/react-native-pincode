@@ -178,7 +178,6 @@ const styles = react_native_1.StyleSheet.create({
     },
     textTimer: {
         fontFamily: 'Avenir Next',
-        fontFamily: react_native_1.Platform.OS === "ios" ? "Courier" : "monospace",
         fontSize: 20,
         color: colors_1.colors.base
     },

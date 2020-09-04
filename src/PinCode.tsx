@@ -799,6 +799,7 @@ const styles = StyleSheet.create({
     flexDirection: "column"
   },
   text: {
+    fontFamily: 'Avenir Next',
     fontSize: grid.unit * 2,
     fontWeight: "200"
   },
@@ -811,11 +812,13 @@ const styles = StyleSheet.create({
     borderRadius: grid.unit * 2
   },
   textTitle: {
+    fontFamily: 'Avenir Next',
     fontSize: 20,
     fontWeight: "200",
     lineHeight: grid.unit * 2.5
   },
   textSubtitle: {
+    fontFamily: 'Avenir Next',
     fontSize: grid.unit,
     fontWeight: "200",
     textAlign: "center"
@@ -836,6 +839,7 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   textDeleteButton: {
+    fontFamily: 'Avenir Next',
     fontWeight: "200",
     marginTop: 5
   },
